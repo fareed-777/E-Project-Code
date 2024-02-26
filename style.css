@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    box-sizing: border-box;
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: yellow;
+    height: 100px;
+    padding: 0 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: yellow;
+    height: 100px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.search-container {
+    display: flex;
+    position: relative;
+}
+
+/* good */
+.search-box {
+    background-color: rgba(0, 0, 0, 0);
+    padding: 10px;
+    width: 220px;
+    border: 1px solid #000000;
+    border-radius: 50px;
+    font-size: 13px;
+    outline: none;
+    margin-left: 20px;
+}
+
+
+.search-button {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.mainlogo {
+    justify-content: center;
+    text-align: center;
+}
+
+.text-logo {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    font-style: italic;
+    color: red;
+    margin: 0;
+}
+
+.navbar-links {
+    font-size: 20px;
+    margin: 0px 0px 0px 0px;
+
+}
+
+.navbar-links a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.nav-link {
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        height: 200px;
+    }
+
+    .search-box {
+        width: 220px;
+        margin-top: 0;
+    }
+
+    .search-button {
+        margin-left: 20px;
+    }
+
+    .mainlogo {
+        margin-bottom: 0;
+    }
+
+    .navbar-links {
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .nav-link {
+        margin-bottom: 0;
+        margin-left: 20px;
+    }
+}
+
+/* -----------------------------------NAVBAR END----------------- */
+.navigation {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: yellow;
+}
+
+.navigationchild1 {
+    /* border: 1px solid red; */
+    height: 40px;
+    width: 170px;
+}
+
+.navigationchild2 {
+    /* border: 1px solid red; */
+    height: 40px;
+    width: 130px;
+}
+
+.navigationchild3 {
+    /* border: 1px solid red; */
+    height: 40px;
+    width: 100px;
+}
+
+.navigationchild4 {
+    /* border: 1px solid red; */
+    height: 40px;
+    width: 100px;
+}
+
+.navigationchild5 {
+    /* border: 1px solid red; */
+    height: 40px;
+    width: 100px;
+}
+
+.dropbtn {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: font-size 0.4s ease;
+}
+
+.dropbtn:hover {
+    font-size: 11px;
+
+}
+
+/* -----------------------------------navigation end----------------------- */
